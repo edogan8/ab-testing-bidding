@@ -21,13 +21,13 @@ A company introduced a new bidding type, **"Average Bidding"**, as an alternativ
 ## 📈 Key Findings
 | Metric | Control Group (Max Bidding) | Test Group (Average Bidding) | Result |
 |--------|-----------------------------|------------------------------|--------|
-| **Avg Purchase** | 550.89 | 582.10 | **No Significant Difference (p>0.05)** |
+| **Avg Purchase** | **522.79** | **521.23** | **No Significant Difference (p>0.05)** |
 | **Avg Spend** | $2,288 | $2,563 | **Significant Increase (p<0.05) ❌** |
 | **Cost Per Purchase** | **$5.05** | **$5.90** | **Test Group is LESS Efficient** |
 
 ## 💡 Conclusion & Recommendation
-* **Statistical Result:** There is **NO significant difference** in sales numbers between the two methods.
-* **Business Insight:** The new method ("Average Bidding") costs significantly more to acquire the same number of customers. The Cost Per Purchase increased by approximately **$0.85 per customer**.
+* **Statistical Result:** There is **NO significant difference** in sales numbers between the two methods (p-value > 0.05). The purchase counts are almost identical.
+* **Business Insight:** Despite generating similar sales volume, the new method ("Average Bidding") costs significantly more. The Cost Per Purchase increased by approximately **$0.85 per customer**.
 * **Recommendation:** 🛑 **STOP** the new bidding strategy and continue with the existing "Maximum Bidding" to prevent ROI loss.
 
 ---
